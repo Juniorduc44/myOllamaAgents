@@ -4,8 +4,8 @@ import subprocess
 #llama="gemma2:latest"
 #llama="llama3:70b"
 #llama="deepseek-coder-v2:16b"
-llama="deepseek-coder-v2:236b"
-
+#llama="deepseek-coder-v2:236b"
+llama="deepseek-r1:8b"
 
 class OllamaAgent:
     def __init__(self, agent_id, config, logger):
